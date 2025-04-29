@@ -1,0 +1,8 @@
+📝 Notes:
+
+
+==>System.gc() is just a request to the JVM — it may or may not run the GC immediately.
+
+==>finalize() is deprecated since Java 9 and removed in Java 18+ — best avoided in production code.
+
+==>Modern Java uses other tools like PhantomReference, WeakReference, and profilers for memory management
